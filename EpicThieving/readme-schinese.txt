@@ -33,9 +33,9 @@
 
 3.史诗级陷阱装设
 
-This component overhauls all the trap setting abilities (Set Snare, Set Special Snare, Set Spike Trap, Set Exploding Trap, and Set Time Trap) so that rather than improving based on the thief's level, they improve based on the thief's Set Traps skill. They get more powerful for every 50 Set Traps points the thief has, with the highest threshold being a Set Traps skill of 250 or higher. For characters less skilled at setting traps, the traps will be less powerful than in the base game. However, for characters with extremely high Set Traps skills, the traps will be potentially slightly more powerful than in the base game. In addition, since trap power is no longer based on level, if you have your thief put all of their points into Set Traps at each level up, they could get high-power traps really early (though at the cost of forsaking their other thieving skills).
+本组件全面修订了盗贼的装设陷阱能力（装设陷阱、装设特殊陷阱、装设尖刺陷阱、装设爆裂陷阱、装设缓时陷阱），改为基于盗贼的装设陷阱技能提升，不再基于盗贼等级提升。盗贼装设陷阱能力每增长50点，陷阱效果会增强，最高档为能力值250或更高。对装设陷阱能力较低的角色来说，陷阱效果比原版要稍弱些；对装设陷阱能力较高的角色来说，陷阱效果比原版要更强。另外，既然陷阱效果不再基于盗贼等级，如果你的盗贼每次升级都把所有点数投入到装设陷阱能力上，就能在早期使用很强力的陷阱（不过代价是放弃其它盗贼技能）。
 
-4.史诗级偷窃
+4.史诗级扒窃
 
 This component does two things. First, it changes the minimum Pick Pockets requirements necessary to steal items that a creature is holding in certain inventory slots. In the base game, it is impossible to steal a creature's helmet, shield, boots, or armor. With this component:
 
