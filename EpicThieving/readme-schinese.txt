@@ -37,39 +37,39 @@
 
 4.史诗级扒窃
 
-This component does two things. First, it changes the minimum Pick Pockets requirements necessary to steal items that a creature is holding in certain inventory slots. In the base game, it is impossible to steal a creature's helmet, shield, boots, or armor. With this component:
+本组件包括两部分内容。第一，更改了偷取生物特定装备栏位物品所需的最低扒窃技能要求。原游戏中不能偷取生物的头盔、盾牌、靴子和盔甲，安装本组件后可以：
 
-*Stealing a creature's helmet requires at least 105 Pick Pockets
-*Stealing a creature's shield/off-hand weapon requires at least 120 Pick Pockets
-*Stealing a creature's boots off their feet requires at least 180 Pick Pockets
-*Stealing a creature's armor requires at least 290 Pick Pockets (think of this as the thief equivalent of being Elminster).
+*偷取生物的头盔，需要扒窃技能最低105；
+*偷取生物的盾牌或副手武器，需要扒窃技能最低120；
+*偷取生物脚上的靴子，需要扒窃技能最低180；
+*偷取生物的盔甲，需要扒窃技能最低290（相当于盗贼界的伊尔明斯特吧）。
 
-Even with this component, you cannot steal from a hostile creature. There doesn't seem to be anything I can do about that.
+但即便安装了本组件，你还是不能从敌对生物身上偷东西，这事貌似我搞不定。
 
-The second thing this component does is allow you to steal from a couple of stores you couldn't steal from before. This is far less comprehensive than the changes to locks and traps in the other components. Only a few stores were changed, mainly some of the major, high-profile stores in Baldur's Gate 1 and 2. I'm going to list all of the stores I changed because I don't want you to be afraid when you're about to steal from some random store that I might have made it super-difficult to steal from.
+第二，本组件可以让你从以前不能偷的商店偷东西，相比于其它组件对开锁和陷阱的修改，这不难理解。只有少数商店有变化，主要是博德之门一代、二代游戏中一些比较大的、有名的商店，我会把更改的商店全都列出来，因为不想让你担心在随便某个商店偷东西会比较困难。
 
-* High Hedge - Stealing Difficulty: 105
-* Sorcerous Sundries - Stealing Difficulty: 115
-* Thunderhammer Smithy - Stealing Difficulty: 120
-* Sorcerous Sundries (in Siege of Dragonspear) - 160 (because there's a whole big crowd of people there)
-* Adventurer's Mart (both the regular goods and the secret goods) - 180 (because the Amnian Soldier is watching you carefully the whole time)
+*高篱堡：偷窃难度105
+*巫术杂货店：偷窃难度115
+*雷锤铁匠铺：偷窃难度120
+*巫术杂货店（龙矛围攻）：偷窃难度160（因为那里有一大堆人）
+*冒险者集市（常规和秘密商品）：偷窃难度180（因为安姆士兵一直在盯着你）
 
-For comparison, the hardest store to steal from in Baldur's Gate II normally is the Copper Coronet, with a stealing difficulty of 128. The merchant in Trademeet who sells you the Girdle of Inertial Barrier has a stealing difficulty of 30.
+作为对比，正常博德之门二代中最难偷窃的商店是铜冠旅店，偷窃难度为128，商贸集会卖惯性障壁腰带的商人，偷窃难度为30。
 
-NOTE: How the stealing difficulty works is that you have a 1% chance to steal an item successfully for every 1 point of Pick Pockets you have greater than the stealing difficulty of the store. In order to be able to steal an item from the Adventurer's Mart 100% reliably, you need 280 Pick Pockets (which is still easier than stealing someone's armor).
+注意：偷窃难度的运作机制是，你的扒窃技能数值每比商店的偷窃难度高出1点，偷窃物品的成功率增加1%，如果想保证从冒险者集市100%偷窃成功，需要扒窃技能达到280（依然比偷窃生物盔甲容易）。
 
 5.史诗级侦测幻象
 
-This component makes it so that if a thief has over 100 in Detect Illusions, they have a chance to detect illusions even when they aren't actively trying. A thief will have a 1% chance to passively detect illusions for every 1 point of Detect Illusions above 100.
+本组件功能为，盗贼的侦测幻象技能超过100时，有一定机会在没激活技能时也能侦测到幻象，技能等级每比100高出1点，盗贼的被动侦测幻象成功率增加1%。
 
-This component also makes it so that characters with a Detect Illusions skill of at least 100 can effectively see invisible creatures and target them with spells or abilities. This also affects shamans, once they reach 100 Detect Illusions.
+本组件也可以让侦测幻象技能至少达到100的角色能看到隐形生物，并对其使用法术或特殊能力。这也能影响到萨满，只要侦测幻象技能达到100。
 
 6.新技能：使用毒药
 
-This component adds a brand new skill to the game: Use Poison! Thieves can put points in this skill like the other skills. Having a high Use Poison skill increases any poison damage dealt by the thief, whether from traps, an assassin's Poison Weapon, or from weapons and missiles that poison the target. Assassins start with +20% to their Use Poison skill. Thieves get +4% to the skill for every point of Intelligence they have over 10.
+本组件在游戏中加入一项全新的技能：使用毒药！盗贼可以将点数投入其上，跟其它盗贼技能一样。拥有高等级的使用毒药技能可以增加盗贼造成的所有毒素伤害，包括陷阱、刺客的武器淬毒、或是近战和远程武器附加在目标上的毒素伤害。刺客初始拥有20%的使用毒药技能。盗贼的智力属性每比10点高出1点，使用毒药技能增加4%。
 
-Before installing this component, you must install EEex, which allows the creation of new thieving skills.
+本组件需要安装EEex，用于创建新盗贼技能。
 
 7.禁止多瓶感知力药水或盗王之王药水的效果堆叠
 
-Since it would be too easy to deal with these epic locks and traps simply by having your mage-thief chug lots of Potions of Perception and Potions of Master Thievery, this component lets you prevent the effects of more than one Potion of Perception/Master Thievery from stacking.
+为了避免你可以简单给盗法兼职角色灌下一堆感知力药水和盗王之王药水，从而过于容易地搞定史诗级锁和陷阱，本组件禁止多瓶感知力药水或盗王之王药水的效果堆叠。
